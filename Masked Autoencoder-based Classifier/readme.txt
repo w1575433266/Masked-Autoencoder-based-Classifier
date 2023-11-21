@@ -1,4 +1,4 @@
-In datasets，0 represents " inrush water ", 1 represents " Xujiazhuang limestone water ", 2 represents " Ordovician limestone water ",
+In codes，0 represents " inrush water ", 1 represents " Xujiazhuang limestone water ", 2 represents " Ordovician limestone water ",
  3 represents " sandstone water ",  and 4 represents " goaf water ".For the learning framework we used, 
 it is not possible to directly remove the label '0' from the output. 
 However, in practice, our custom loss function effectively ignores it, so the model outputs a value so small that its probability can be disregarded.
